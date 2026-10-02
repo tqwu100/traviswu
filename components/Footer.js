@@ -6,6 +6,7 @@ export default function Footer() {
     <footer className="mt-16 border-t border-white/15 pt-8">
       <div className="flex gap-6 text-[15px]">
         <Button href={`mailto:${site.email}`}>email</Button>
+        <Button href={site.resume}>resume</Button>
         <Button href={site.linkedin} external>
           linkedin
         </Button>

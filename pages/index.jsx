@@ -15,23 +15,17 @@ export default function Home() {
         />
       </Head>
 
-      <section className="max-w-[640px] space-y-8 text-[17px] leading-8 text-white">
+      <section className="space-y-8 text-[17px] leading-8 text-white">
         <p>
           I study applied mathematics, cognitive science, and statistics at
-          UCLA, with a focus on data science.
+          UCLA.
         </p>
         <p>
-          In recent years, I&apos;ve{" "}
-          <Button href="/engineering">analyzed planetary landing sites</Button>{" "}
-          with NASA L&apos;SPACE,{" "}
-          <Button href="/engineering">led data analysis and CAD</Button> for an
-          FTC team that placed 2nd at state championships, and competed at the{" "}
-          <Button href="/engineering">2023 FRC World Championship Finals</Button>
-          .
+          Currently, I&apos;m working on planetary landing site analysis with NASA L&apos;SPACE,{" "}. Previously, I
+          led data analysis for an FTC robotics team that placed 2nd at state championships.
         </p>
         <p>
-          I&apos;m also a pickleball player and hobbyist{" "}
-          <Button href="/photography">photographer</Button>.
+          I&apos;m also an avid pickleball player and a hobbyist photographer.
         </p>
       </section>
 

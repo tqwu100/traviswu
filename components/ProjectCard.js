@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { withBase } from "@/lib/basePath";
 
 export default function ProjectCard({ title, href, image }) {
   return (
@@ -8,7 +9,7 @@ export default function ProjectCard({ title, href, image }) {
       </h3>
       <div className="overflow-hidden bg-[#1a1a1a]">
         <img
-          src={image}
+          src={withBase(image)}
           alt=""
           className="aspect-[16/10] w-full object-cover"
         />
